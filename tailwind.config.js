@@ -18,7 +18,12 @@ export default {
       fontFamily: {
         karla: ['Karla', 'sans-serif'],
         DM: ['DM Serif Display', 'serif'],
+      },
+      backgroundImage: {
+        'hero-pattern': "url('../assets/images/bg-pattern-intro-right-desktop.svg')"
+        
       }
+      
     },
   },
   plugins: [],

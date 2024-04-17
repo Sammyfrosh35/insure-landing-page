@@ -6,7 +6,7 @@ import Work from "./Components/Work"
 
 export default function App() {
   return (
-    <main className="relative">
+    <main className="relative ">
     <Nav />
 
  
