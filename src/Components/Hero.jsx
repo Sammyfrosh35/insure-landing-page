@@ -7,7 +7,7 @@ const Hero = () => {
 
       <img src={bg} alt="bg-right" width={150} className=''/>
       <div className='relative'>
-      <h1 className='text-3xl text-white font-DM'>Humanizing <br /> your <br /> insurace.</h1>
+      <h1 className='text-3xl text-white font-DM'>Humanizing your <br /> insurace.</h1>
       </div>
  
 
