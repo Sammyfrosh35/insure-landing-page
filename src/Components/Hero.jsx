@@ -7,12 +7,7 @@ const Hero = () => {
     <section className='bg-right-top ... bg-hero-pattern bg-Dark-Violet  w-full max-h-full'>
 
       <div className='relative'>
-      <h1 className='text-3xl text-white font-DM'>Humanizing <br /> your insurace.</h1>
-      <p className='text-[16px] font-karla font-light text-white '>Get your life insurance coverage easier and faster. we blend our expertise and technology to help you find the plan thats right for you. Ensure you and your beloved ones are protected </p>
-    
-<div className='block items-center ' >
-<img src={heroImg} alt="heroImg" />
-</div>
+      <h1 className='text-3xl text-white font-DM'>Humanizing <br /> your <br /> insurace.</h1>
       </div>
 
 
