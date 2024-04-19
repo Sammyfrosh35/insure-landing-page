@@ -1,28 +1,34 @@
-import React from 'react'
-import logo from "../assets/images/logo.svg"
+
+
+import React from 'react';
+import logo from "../assets/images/logo.svg";
 
 const Nav = () => {
   return (
-    <header className='relative z-10 '>
-  <nav className='bg-red-400 max-container '>
-            
-         <ul className='flex
-    items-center gap-5 flex-row  leading-normal text-Very-Light-Gray mb-3 font-karla font-[500]  text-[12px] justify-center' >
-   <a href="/">
-         <img src={logo} alt="logo" width={70} height={29}/>
-         </a>
+    <section className=''>
+      <nav className='bg-white max-container  flex justify-between items-center'>
+        {/* Logo */}
+        <div>
+          <a href="/">
+            <img src={logo} alt="logo" width={100} className='object-fit'/>
+          </a>
+        </div>
 
-
-        <a href="#"><li>HOW WE WORK</li></a>
-        <a href="#"><li>BLOG</li></a>
-        <a href="#"><li>ACCOUNT</li></a>
-        <a href="#"><button className='bg-Dark-Violet py-2 m-2 p-2 w-[100%]'> VIEW PLANS</button></a>
-    </ul>
-
-  </nav>
-</header>
-
-  )
+        {/* Menu Items */}
+        <div className='flex items-center gap-7 py-[1.25rem] leading-normal text-dark-grayish-violet font-medium font-karla cursor-pointer text-[16px] flex-row'>
+          <a href="#">HOW WE WORK</a>
+          <a href="#">BLOG</a>
+          <a href="#">ACCOUNT</a>
+          <button className='bg-Dark-Violet py-1 m-1 p-1 w-36 text-white text-[16px]'>
+            <a>VIEW PLANS</a>
+          </button>
+        </div>
+      </nav>
+    </section>
+  );
 }
 
-export default Nav
+export default Nav;
+
+
+
