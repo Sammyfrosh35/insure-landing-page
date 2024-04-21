@@ -4,10 +4,10 @@ import heroImg from '../assets/images/image-intro-desktop.jpg'
 
 const Hero = () => {
   return (
-    <section className='bg-right-top ... bg-hero-pattern bg-Dark-Violet  w-full max-h-full'>
+    <section className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container bg-very-dark-violet'>
 
       <div className='relative'>
-      <h1 className='text-3xl text-white font-DM'>Humanizing <br /> your <br /> insurace.</h1>
+      <p className='text-4xl text-white font-DM'>Humanizing your insurace.</p>
       </div>
 
 
