@@ -20,7 +20,8 @@ export default {
         DM: ['DM Serif Display', 'serif'],
       },
       backgroundImage: {
-        'hero-pattern': "url('../assets/images/bg-pattern-intro-right-desktop.svg')"
+        'hero-pattern': "url('../assets/images/bg-pattern-intro-right-desktop.svg')",
+        'work-pattern': "url('../assets/images/bg-pattern-how-we-work-desktop.svg')"
         
       }
       
