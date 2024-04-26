@@ -5,10 +5,10 @@ import heroImg from '../assets/images/image-intro-desktop.jpg';
 
 const Hero = () => {
   return (
-    <section className='w-full flex xl:flex-row flex-col min-h-[72vh] gap-10 max-container bg-Dark-Violet relative'>
+    <section className='w-full flex xl:flex-row flex-col min-h-[72vh] gap-10 max-container bg-Dark-Violet relative '>
 
 
-      <div className='relative justify-center flex-col items-center ml-10'>
+      <div className='relative justify-center flex-col items-center ml-10 max-xl:padding-x pt-28'>
       <hr className='border border-slate-300  w-1/5 mt-12 mb-12' />
               <p className='text-6xl text-white font-DM justify-start items-center relative mt-15'>
           Humanizing <br />

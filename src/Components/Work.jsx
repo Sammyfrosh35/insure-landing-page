@@ -10,7 +10,7 @@ const Work = () => {
 
   
 <div className='absolute right-14'> 
-<button className='border-[1px] border-white font-karla text-white font-normal p-3 justify-end ml-10 hover:text-very-dark-violet hover:bg-white'> How we work</button>
+<button className='border-[1px] border-white font-karla text-white font-medium p-3 justify-end ml-10 hover:text-very-dark-violet hover:bg-white'> HOW WE WORK</button>
 </div>
 
 

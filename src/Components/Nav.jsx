@@ -1,5 +1,5 @@
 
-
+import  hamburger  from "../assets/icons//icon-hamburger.svg"
 import React from 'react';
 import logo from "../assets/images/logo.svg";
 
@@ -15,6 +15,7 @@ const Nav = () => {
         </div>
 
         {/* Menu Items */}
+        <ul className="max-lg:hidden gap-16">
         <div className='flex items-center gap-7 py-[1.25rem] leading-normal text-dark-grayish-violet font-medium font-karla cursor-pointer text-[16px] flex-row'>
           <a href="#" className="hover:text-very-dark-violet">HOW WE WORK</a>
           <a href="#" className="hover:text-very-dark-violet">BLOG</a>
@@ -22,6 +23,13 @@ const Nav = () => {
           <button className='py-1 m-1 p-1 w-36 text-[16px] bg-none border-[2px] border-very-dark-violet text-Dark-Violet hover:bg-very-dark-violet hover:text-white'>
             <a>VIEW PLANS</a>
           </button>
+        </div>
+        </ul>
+
+
+
+        <div className="hidden max-lg:block">
+          <img src={hamburger} alt="hmburger" width={25} height={25}/>
         </div>
       </nav>
     </section>
