@@ -2,8 +2,20 @@
 import  hamburger  from "../assets/icons//icon-hamburger.svg"
 import React from 'react';
 import logo from "../assets/images/logo.svg";
+import { useState  } from "react";
 
+
+  
 const Nav = () => {
+  // State to track the visibility of the menu
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  // Function to toggle menu visibility
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+
   return (
     <section className=''>
       <nav className='bg-white max-container  flex justify-between items-center'>
@@ -15,7 +27,7 @@ const Nav = () => {
         </div>
 
         {/* Menu Items */}
-        <ul className="max-lg:hidden gap-16">
+            <ul className={`max-lg:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className='flex items-center gap-7 py-[1.25rem] leading-normal text-dark-grayish-violet font-medium font-karla cursor-pointer text-[16px] flex-row'>
           <a href="#" className="hover:text-very-dark-violet">HOW WE WORK</a>
           <a href="#" className="hover:text-very-dark-violet">BLOG</a>
