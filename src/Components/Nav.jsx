@@ -27,7 +27,7 @@ const Nav = () => {
         </div>
 
         {/* Menu Items */}
-            <ul className={`max-lg:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
+            <ul>
         <div className='flex items-center gap-7 py-[1.25rem] leading-normal text-dark-grayish-violet font-medium font-karla cursor-pointer text-[16px] flex-row'>
           <a href="#" className="hover:text-very-dark-violet">HOW WE WORK</a>
           <a href="#" className="hover:text-very-dark-violet">BLOG</a>
@@ -49,6 +49,4 @@ const Nav = () => {
 }
 
 export default Nav;
-
-
 
