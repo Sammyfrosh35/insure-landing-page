@@ -56,7 +56,7 @@ const Footer = () => {
         <a href="">
         <li className="text-1xl font-karla font-semibold hover:underline mb-2 leading-normal">SALES </li>
         <li className="text-1xl font-karla font-semibold hover:underline  mb-2 leading-normal">SUPPORT</li>
-        <li className="text-1xl font-karla font-semibold hover:underline  mb-2 leading-normal">LIVE CHAT</li>
+        <li className="text-1xl font-karla font-semibold hover:underline  mb-2 leading-normal">LIVE CHATS</li>
       </a>
        </ul >
       </div>
