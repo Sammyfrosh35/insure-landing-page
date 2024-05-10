@@ -14,11 +14,11 @@ const Nav = () => {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-
+  // sm:block md:bg-none sm:bg-transparent sm:w-fit md:h-fit sm:left-auto sm:top-auto sm:right-0 mx-auto 
 
   return (
-    <section className=''>
-      <nav className='bg-white max-container  flex justify-between items-center '>
+    <section className='padding-x p-1'>
+      <nav className='bg-white max-container  flex justify-between items-center sm:py-1 px-0'>
         {/* Logo */}
         <div>
           <a href="/">
@@ -27,7 +27,7 @@ const Nav = () => {
         </div>
 
         {/* Menu Items */}
-            <ul >
+            <ul className="max-lg:hidden">
         <div className='flex items-center gap-7 py-[1.25rem] leading-normal text-dark-grayish-violet font-medium font-karla cursor-pointer text-[16px] flex-row'>
           <a href="#" className="hover:text-very-dark-violet">HOW WE WORK</a>
           <a href="#" className="hover:text-very-dark-violet">BLOG</a>
