@@ -14,10 +14,7 @@
     scroll-behavior: smooth;
   }
 
-  body{
-    background-image:url('../assets/images/bg-pattern-intro-right-desktop.svg');
-  }
-  
+
   @layer components {
     .max-container {
       max-width: 1440px;

@@ -7,9 +7,9 @@ import people from  "../assets/icons/icon-people-first.svg"
 
 const Services = () => {
   return (
-    <section className="max-container flex  flex-wrap gap-9">
+    <section className="max-container flex justify-center  gap-9 ">
 
-      <div>
+      <div className=''>
 
     <hr className='mb-9 w-20 border-[1px]'/>
 
